@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,1,13,1) 0%, rgba(204,225,233,1) 0%, rgba(207,228,232,1) 100%);
+}
+.button{
+  padding: 20px;
+  margin: 0 3px;
+  border:2px solid black;
+  border-radius: 70px;
+  cursor: pointer;
+}
+.border{
+  background-color: grey;
+  border : 2px solid black;
+  width:350px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 9px rgb(31 29 29), -1px -1px 7px;
+}
+.button:hover{
+background-color: rgba(0, 0, 0, 0.2);
+}
+.row{
+  margin: 8px 0;
+}
+.row input{
+  margin:0;
+font-size: 20px;
+border-radius: 9px;
+padding: 10px 0;
+}
